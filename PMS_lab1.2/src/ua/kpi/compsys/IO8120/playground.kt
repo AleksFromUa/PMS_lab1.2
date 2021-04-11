@@ -8,15 +8,8 @@ import java.time.format.DateTimeFormatter
 import java.time.format.FormatStyle
 
 fun main() {
-    val time = LocalTime.of(3, 15, 10)
-    val timeDateTypeObject = LocalDateTime.now()
 
-
-    println("The time is ${timeDateTypeObject.hour}:${timeDateTypeObject.minute}:${timeDateTypeObject.second}")
-
-
-}
-/*    // Частина 1
+    // Частина 1
 
 // Дано рядок у форматі "Student1 - Group1; Student2 - Group2; ..."
 
@@ -213,5 +206,3 @@ fun main() {
 //Завдання 5
 //["ІВ-72": ["Бортнік Василь", "Киба Олег", "Овчарова Юстіна", "Тимко Андрій"], "ІВ-73": ["Давиденко Костянтин", "Капінус Артем", "Чередніченко Владислав", "Гончар Юрій", "Науменко Павло"], "ІВ-71": ["Музика Олександр", "Трудов Антон", "Гуменюк Олександр", "Феофанов Іван", "Андрющенко Данило", "Корнійчук Ольга"]]
 }
-
-*/
